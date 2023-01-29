@@ -1,0 +1,36 @@
+@import "@/styles/colors.scss";
+
+.cardWithOutImage {
+  background-color: $color-blue-1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  max-height: 138px;
+  .title {
+    font-size: 15px;
+    font-weight: 700;
+    color: $color-white;
+    text-align: start;
+  }
+  .detail {
+    font-size: 11px;
+    color: $color-white;
+    padding-top: 5px;
+    line-height: 20px;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cardWithOutImage {
+    .title {
+      font-size: 24px;
+    }
+    .detail {
+      font-size: 14px;
+    }
+  }
+}

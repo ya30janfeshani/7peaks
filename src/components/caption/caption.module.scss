@@ -1,0 +1,43 @@
+@import "@/styles/colors.scss";
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(9, 53, 123, 0.88);
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 136px;
+  .title {
+    font-size: 15px;
+    font-weight: 700;
+    color: $color-white;
+    text-align: start;
+    line-height: 1.5em;
+    max-height: 3em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+  }
+  .detail {
+    font-size: 11px;
+    color: $color-white;
+    padding-top: 5px;
+    text-align: start;
+    line-height: 1.5em;
+    max-height: 3em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .caption {
+    .title {
+      font-size: 24px;
+    }
+    .detail {
+      font-size: 14px;
+    }
+  }
+}

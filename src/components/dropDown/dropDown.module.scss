@@ -1,0 +1,59 @@
+@import "@/styles/colors.scss";
+
+.dropDownContainer {
+  position: relative;
+  .dropDown {
+    width: 255px;
+    border-bottom: 1px solid $color-black;
+    margin-left: 20px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    .sortText {
+      font-size: 16px;
+      font-weight: 400;
+      color: $color-black;
+      padding-left: 5px;
+    }
+    &:after {
+      content: "▼";
+      position: absolute;
+      top: -8px;
+      right: 12px;
+      z-index: 1;
+      color: $color-black;
+      line-height: 40px;
+      font-size: 14px;
+    }
+  }
+
+  .dropDownOpen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 255px;
+    border: 1px solid $color-black;
+    background-color: $color-white;
+    z-index: 2;
+    .ListText {
+      height: 30px;
+      font-size: 16px;
+      font-weight: 400;
+      color: $color-black;
+      padding: 5px 0 8px 5px;
+      cursor: pointer;
+      &:first-child {
+        &:after {
+          content: "▲";
+          position: absolute;
+          top: -8px;
+          right: 12px;
+          z-index: 3;
+          color: $color-black;
+          line-height: 40px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

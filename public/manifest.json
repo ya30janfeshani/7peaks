@@ -1,0 +1,64 @@
+{
+  "name": "7Peaks",
+  "short_name": "7Peaks",
+  "description": "",
+  "icons": [
+    {
+      "src": "/icon/icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-48x48.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-192x192.png",
+      "sizes": "192x162",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-chrome-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon/icon-chrome-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/bookmarks",
+  "theme_color": "red",
+  "background_color": "red",
+  "display": "standalone",
+  "scope": "/"
+}

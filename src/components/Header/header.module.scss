@@ -1,0 +1,35 @@
+@import "@/styles/colors.scss";
+
+.header {
+  height: 126px;
+  background-color: $color-blue-1;
+
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .searchContainer {
+    display: flex;
+    height: 100%;
+    align-items: end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 126px;
+    background-color: $color-blue-1;
+
+    .innerContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+  }
+}
